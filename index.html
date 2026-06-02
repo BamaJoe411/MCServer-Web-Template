@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Minecraft Server Name]</title>
+    <title>Creed SMP</title>
     <link rel="icon" type="image/png" href="media/favicon.png">
     <link rel="stylesheet" href="media/style.css">
     <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
@@ -45,34 +45,23 @@
     </div>
     <div class="mainflex">
       <div class="main1">
-        <a class="main1_logo_a" href="#">
+        <!-- <a class="main1_logo_a" href="#">
           <img class="main1_logo" src="media/logo.png" alt="logo">
-        </a>
+        </a> -->
         <div class="main1_description">
-          <a>Minecraft,<br>like</a>
-          <a class="main1_actcent">already done before</a><a>.</a>
+          <a>Creed SMP</a>
+          <!-- <a class="main1_actcent">already done before</a><a>.</a> -->
         </div>
         <div class="main1_ipcopier_div">
-          <button class="main1_ipcopier" onclick="copyText()" type="button">
-            <span class="main1_ipcopier_text1">play.example.com</span>
+          <button class="main1_ipcopier" onclick="openForm()" type="button">
+            <span class="main1_ipcopier_text1">Creedy SMP Form</span>
             <br>
-            <span class="main1_ipcopier_text2">Click to copy</span>
+            <span class="main1_ipcopier_text2">Click to apply</span>
           </button>
           <script>
-            function copyText() {
-                navigator.clipboard.writeText
-            ("play.example.com");
-                }
-            $(document).ready(function() {
-            $('.main1_ipcopier').click(function() {
-                var popup = $('<div>', { class: 'main1_popup' })
-                .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
-                $(this).after(popup);
-                setTimeout(function() {
-                popup.remove();
-                }, 1000);
-            });
-            });
+            function openForm() {
+                window.open('https://forms.gle/1FWMHJVKMsA8gVFK6', '_blank');
+            }
         </script>
         </div>
         <a href="#more" class="scroll">
